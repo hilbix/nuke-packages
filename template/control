@@ -1,0 +1,7 @@
+Source: dummy-package
+Section: misc
+Priority: optional
+Maintainer: dummy <dummy@example.org>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 3.9.2
+Rules-Requires-Root: no
