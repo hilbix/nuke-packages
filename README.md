@@ -37,3 +37,12 @@ License of generated package?
 
 - Free as free beer, free speech, free baby
 
+Reproducible?
+
+- I tried my best but failed miserably.
+- [I do not understand any bit of the HowTo](https://wiki.debian.org/ReproducibleBuilds/Howto)
+- Perhaps anybody can enlighten me with a step-by-step guide how to reproducibly build some minimal dummy Debian package
+  - Starting with a minimal Debian install?
+  - With each an every command required to get it from minimal to build the dummy in a reproducible way?
+  - Just the in-sequence list of all the commands for just some arbitrary single example suffice.  I need no script.  I need no options.
+
