@@ -1,0 +1,5 @@
+# dpkg --get-selection | grep package-you-want-to-kill >> PACKAGES-TO-NUKE.txt
+
+ubuntu-advantage-desktop-daemon			install
+ubuntu-advantage-tools				install
+
