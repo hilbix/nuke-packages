@@ -9,9 +9,12 @@ HERE="$(readlink -e .)" || exit
 cd "$1" || exit
 shift
 
-TMP="$(mktemp -d BUILD.XXXXX)" || exit
+#TMP="$(mktemp -d BUILD.XXXXX)" || exit
+TMP=tmp
+rm -rf "$TMP" || exit
+mkdir "$TMP" || exit
 TMP="$(readlink -e "$TMP")" || exit
-trap 'rm -rf "$TMP"' 0
+#trap 'rm -rf "$TMP"' 0
 
 mkdir "$TMP/debian" || exit
 cp -r "$HERE"/template/. "$TMP/debian/" || exit
