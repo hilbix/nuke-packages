@@ -17,6 +17,11 @@ The `ubuntu-advantage` PITA already is predefined.
 	make
 	sudo dpkg -i build/*.deb
 
+and eventually:
+
+	sudo apt auto-remove --purge
+	sudo debfoster
+
 
 ## FAQ
 
