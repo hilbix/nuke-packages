@@ -5,5 +5,4 @@ ubuntu-advantage-tools				install
 update-manager					install
 update-manager-core				install
 update-notifier					install
-update-notifier-common				install
 
