@@ -15,7 +15,7 @@ The `ubuntu-advantage` PITA already is predefined.
 	cd dummy-package
 	dpkg --get-selections | grep unwanted-package > PACKAGE-TO-NUKE.txt
 	make
-	sudo dpkg -i build/unwanted-package
+	sudo dpkg -i build/*.deb
 
 
 ## FAQ
