@@ -13,11 +13,11 @@ The `ubuntu-advantage` PITA already is predefined.
 
 > You need
 >
->	sudo apt install debhelper build-essential
+>     sudo apt install debhelper build-essential
 >
 > Recommended:
 >
->	sudo apt install etckeeper debfoster
+>     sudo apt install etckeeper debfoster
 
 	git clone https://github.com/hilbix/dummy-package.git
 	cd dummy-package
