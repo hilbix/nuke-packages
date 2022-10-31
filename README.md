@@ -11,6 +11,14 @@ The `ubuntu-advantage` PITA already is predefined.
 
 ## Usage
 
+> You need
+>
+>	sudo apt install debhelper build-essential
+>
+> Recommended:
+>
+>	sudo apt install etckeeper debfoster
+
 	git clone https://github.com/hilbix/dummy-package.git
 	cd dummy-package
 	dpkg --get-selections | grep unwanted-package > PACKAGE-TO-NUKE.txt
